@@ -1,0 +1,10 @@
+2015-04-21  Michael Guravage  <guravage@weddell.itf.cwi.nl>
+
+	* .gitignore: Add lib64 - a virtualenv artifact.
+
+	* buildout.cfg (eggs-directory): Obviate sharing egggs by
+	requiring local eggs-directory and download-cache directories.
+
+	(auto-checkout, eggs, test-eggs): Comment out references to
+	ploneconf.site and ploneconf.site_sneak eggs. Their presence will
+	cause an error until we bootstrap the addon with Mr. Bob.

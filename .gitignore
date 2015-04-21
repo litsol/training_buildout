@@ -49,3 +49,6 @@ local/
 local.cfg
 secret.cfg
 src/
+
+# virtualenv
+lib64
